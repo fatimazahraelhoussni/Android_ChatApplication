@@ -18,7 +18,29 @@ Assurez-vous d'avoir configuré Firebase correctement en suivant ces étapes :
 
 ## Fonctionnalités
 
-- Chat en temps réel.
-- Gestion des utilisateurs avec Firebase Authentication.
-- ...
+1. **Chat en temps réel :** Permet aux utilisateurs de communiquer instantanément les uns avec les autres, avec une mise à jour en temps réel des messages.
+
+2. **Gestion des utilisateurs avec Firebase Authentication :** Utilise Firebase Authentication pour permettre aux utilisateurs de s'inscrire, de se connecter et de gérer leur profil de manière sécurisée.
+
+3. **Synchronisation des messages avec Firebase Realtime Database :** Les messages sont stockés et synchronisés en temps réel grâce à Firebase Realtime Database, assurant une expérience de chat fluide.
+
+4. **Notifications en temps réel :** Les utilisateurs reçoivent des notifications instantanées lorsqu'ils reçoivent de nouveaux messages, même lorsque l'application est en arrière-plan.
+
+5. **Personnalisation des profils :** Permet aux utilisateurs de personnaliser leur profil en ajoutant des photos et des informations supplémentaires.
+
+6. **Emojis et réactions :** Intégration d'emojis et de réactions pour enrichir l'expérience de communication.
+
+7. **Historique des messages :** Accès à un historique complet des messages précédents pour chaque conversation.
+
+8. **Thèmes personnalisables :** Offre aux utilisateurs la possibilité de choisir parmi différents thèmes pour personnaliser l'apparence de l'application.
+
+9. **Sécurité :** Toutes les communications sont chiffrées pour assurer la confidentialité des utilisateurs.
+
+10. **Support multiplateforme :** L'application prend en charge Android sur une variété d'appareils.
+
+11. **Recherche de messages :** Permet aux utilisateurs de rechercher des messages spécifiques dans les conversations.
+
+12. **Mode hors ligne :** Les utilisateurs peuvent accéder à une version limitée du chat même en cas de perte de connexion, avec une synchronisation automatique une fois la connexion rétablie.
+
+...
 
