@@ -40,7 +40,7 @@ Assurez-vous d'avoir configuré Firebase correctement en suivant ces étapes :
 
 11. **Recherche de messages :** Permet aux utilisateurs de rechercher des messages spécifiques dans les conversations.
 
-12. **Mode hors ligne :** Les utilisateurs peuvent accéder à une version limitée du chat même en cas de perte de connexion, avec une synchronisation automatique une fois la connexion rétablie.
+
 
 ...
 
