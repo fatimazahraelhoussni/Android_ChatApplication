@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_40sdp"
-            android:text="Welcome Back"
+            android:text="ChatCraft"
             android:textColor="@color/primary_text"
             android:textSize="@dimen/_18ssp"
             android:textStyle="bold"/>
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_4sdp"
-            android:text="Login To Continue"
+            android:text="Login "
             android:textColor="@color/secondary_text"
             android:textSize="@dimen/_12ssp"
             android:textStyle="bold"/>
@@ -93,7 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/_30sdp"
-            android:text="create_new_account"
+            android:text="creer un compte"
             android:textColor="@color/primary"
             android:textSize="@dimen/_13ssp"
             android:textStyle="bold"/>

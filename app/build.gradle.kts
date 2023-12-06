@@ -51,4 +51,6 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore:24.9.1")
     //multidox
     implementation("androidx.multidex:multidex:2.0.1")
+
+
 }
