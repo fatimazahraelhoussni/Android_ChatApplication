@@ -42,6 +42,7 @@ public class SignInActivity extends AppCompatActivity {
                 signIn();
             }
         });
+
     }
     private void signIn(){
         loading(true);

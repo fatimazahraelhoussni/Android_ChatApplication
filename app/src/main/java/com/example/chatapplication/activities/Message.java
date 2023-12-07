@@ -1,4 +1,4 @@
-package com.example.chatapplication.ChatBot;
+package com.example.chatapplication.activities;
 
 
 

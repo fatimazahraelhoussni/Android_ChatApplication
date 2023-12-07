@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 
-import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.chatapplication.ChatBot.ChatBotActivity;
 import com.example.chatapplication.adapters.UsersAdapter;
 import com.example.chatapplication.databinding.ActivityUserBinding;
 import com.example.chatapplication.listeners.UserListener;
@@ -21,7 +19,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserActivity extends AppCompatActivity implements UserListener {
+public class UserActivity extends BaseActivity implements UserListener {
     private ActivityUserBinding binding;
     private PreferenceManager preferenceManager;
     @Override
@@ -34,10 +32,9 @@ public class UserActivity extends AppCompatActivity implements UserListener {
         getUsers();
     }
     private void setListeners(){
-        binding.imageBack.setOnClickListener(v -> onBackPressed());
-        binding.chatBot.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), ChatBotActivity.class)));
 
+
+        binding.imageBack.setOnClickListener(v -> onBackPressed());
     }
     private void getUsers(){
         loading(true);

@@ -33,6 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/white"/>
+
     <TextView
         android:id="@+id/textName"
         android:layout_width="0dp"
@@ -73,6 +74,8 @@
             android:layout_height="@dimen/_25sdp"
             android:layout_gravity="center"/>
 
+
+
     </FrameLayout>
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabNewChat"
@@ -89,6 +92,9 @@
         app:tint="@color/white"
 
         />
+
+
+
 
 
 
