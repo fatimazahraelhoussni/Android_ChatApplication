@@ -25,6 +25,29 @@ public class Constants {
     public static final String KEY_RECEIVER_IMAGE= "receiverImage";
     public static final String KEY_LAST_MESSAGE= "lastMessage";
     public static final String KEY_AVAILABILITY= "availability";
+    public static final String REMOTE_MSG_AUTHORIZATION= "Authorization";
+    public static final String REMOTE_MSG_CONTENT_TYPE= "Content-Type";
+    public static final String REMOTE_MSG_DATA= "data";
+    public static final String REMOTE_MSG_REGISTRATION_IDS= "registration_ids";
+
+    public static HashMap<String,String> remoteMsgHeaders = null;
+
+
+    public static HashMap<String,String> getremoteMsgHeaders(){
+        if (remoteMsgHeaders == null){
+            remoteMsgHeaders = new HashMap<>();
+            remoteMsgHeaders.put(
+                    REMOTE_MSG_AUTHORIZATION,
+                    "key=AAAAgxM3JKI:APA91bHq7263dxIKP8MPVHZ-j6j7nmbbg0KtzgQqy1ieG2jiOeqid9qVZwA96ayjqDVW-PVE8qcVGI7dkOZIwY27yQpYQdT1tB6D9NmpM9wmRPegCyvi2cJKdIab8WhF5ONPg6lHPC-Z"
+            );
+            remoteMsgHeaders.put(
+                    REMOTE_MSG_CONTENT_TYPE,
+                    "application/json"
+            );
+        }
+        return remoteMsgHeaders;
+    }
+
 
 
 
