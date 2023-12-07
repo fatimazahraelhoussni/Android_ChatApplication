@@ -51,6 +51,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore:24.9.1")
     //multidox
     implementation("androidx.multidex:multidex:2.0.1")
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
 
 
 }

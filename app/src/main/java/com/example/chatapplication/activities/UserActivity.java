@@ -8,6 +8,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.chatapplication.ChatBot.ChatBotActivity;
 import com.example.chatapplication.adapters.UsersAdapter;
 import com.example.chatapplication.databinding.ActivityUserBinding;
 import com.example.chatapplication.listeners.UserListener;
@@ -34,6 +35,8 @@ public class UserActivity extends AppCompatActivity implements UserListener {
     }
     private void setListeners(){
         binding.imageBack.setOnClickListener(v -> onBackPressed());
+        binding.chatBot.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), ChatBotActivity.class)));
 
     }
     private void getUsers(){

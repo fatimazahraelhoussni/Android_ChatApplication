@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements ConversionListene
         binding.imageSignOut.setOnClickListener(v -> signOut());
         binding.fabNewChat.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(),UserActivity.class)));
+
     }
 
     private void loadUserDetails(){
