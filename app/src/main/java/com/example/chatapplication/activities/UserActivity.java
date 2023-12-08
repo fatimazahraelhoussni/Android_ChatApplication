@@ -32,9 +32,10 @@ public class UserActivity extends BaseActivity implements UserListener {
         getUsers();
     }
     private void setListeners(){
-
-
         binding.imageBack.setOnClickListener(v -> onBackPressed());
+        binding.chatBot.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), ChatBotActivity.class)));
+
     }
     private void getUsers(){
         loading(true);
