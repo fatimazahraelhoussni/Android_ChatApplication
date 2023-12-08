@@ -5,7 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".activities.ChatBotActivity">
+    <TextView
+        android:id="@+id/chatbot_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="ChatBot"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
