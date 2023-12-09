@@ -143,7 +143,7 @@ public class MainActivity extends BaseActivity implements ConversionListener {
                 .addOnFailureListener(e -> showToast("Unable to update token"));
     }
     private void signOut(){
-        showToast("Signing out ...");
+        showToast("Se déconnecter");
         FirebaseFirestore database = FirebaseFirestore.getInstance();
         DocumentReference documentReference =
                 database.collection(Constants.KEY_COLLECTION_USERS).document(

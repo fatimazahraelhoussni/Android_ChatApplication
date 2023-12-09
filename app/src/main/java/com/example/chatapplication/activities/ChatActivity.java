@@ -150,7 +150,7 @@ public class ChatActivity extends BaseActivity {
                    }catch (JSONException e){
                        e.printStackTrace();
                    }
-                   showToast("notification sent successfully");
+                   showToast("Notification envoyée avec succès");
                }else {
                    showToast("Error: " +response.code());
                }

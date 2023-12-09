@@ -99,7 +99,7 @@ public class ChatBotActivity extends AppCompatActivity {
         RequestBody body = RequestBody.create(jsonBody.toString(),JSON);
         Request request = new Request.Builder()
                 .url("https://api.openai.com/v1/completions")
-                .header("Authorization","Bearer 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")
+                .header("Authorization","Bearer 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")
                 .post(body)
                 .build();
 
@@ -124,7 +124,7 @@ public class ChatBotActivity extends AppCompatActivity {
 
 
                 }else{
-                    addResponse("Failed to load response due to "+response.body().toString());
+                    addResponse("Échec du chargement de la réponse en raison de "+response.body().toString());
                 }
             }
         });

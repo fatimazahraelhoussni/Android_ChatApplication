@@ -102,8 +102,8 @@
 
     <FrameLayout
         android:id="@+id/layoutSend"
-        android:layout_width="@dimen/_45sdp"
-        android:layout_height="@dimen/_45sdp"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
         android:layout_marginEnd="@dimen/_16sdp"
         android:layout_marginRight="@dimen/_16sdp"
         android:layout_marginTop="@dimen/_12sdp"
@@ -114,8 +114,8 @@
         <androidx.appcompat.widget.AppCompatImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="@dimen/_4sdp"
-            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_1sdp"
             android:padding="@dimen/_8sdp"
             android:src="@drawable/ic_send"
             app:tint="@color/white" />
@@ -131,7 +131,7 @@
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="4dp"
         android:background="@drawable/background_chat_input"
-        android:hint="type a message"
+        android:hint="Écrire un message"
         android:imeOptions="actionDone"
         android:importantForAutofill="no"
         android:inputType="text"
